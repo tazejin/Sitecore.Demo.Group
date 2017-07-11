@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{6F81D5A7-DD8E-40CF-A696-7E14B6309CD0}"
 EndProject
@@ -17,6 +17,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 		publishsettings.targets = publishsettings.targets
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{76F1CBB5-9386-48FF-A125-68B990B9AF8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{A8869089-B9A4-47AC-9AAE-B41692AE192F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.Events", "src\Feature\Events\code\Sitecore.Feature.Events.csproj", "{B37097DC-A2E2-486B-9DBA-7E7B63FB1E43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,10 @@ Global
 		{4A74623C-08D4-4984-A7A5-E482AF0B0630}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A74623C-08D4-4984-A7A5-E482AF0B0630}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A74623C-08D4-4984-A7A5-E482AF0B0630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B37097DC-A2E2-486B-9DBA-7E7B63FB1E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B37097DC-A2E2-486B-9DBA-7E7B63FB1E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B37097DC-A2E2-486B-9DBA-7E7B63FB1E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B37097DC-A2E2-486B-9DBA-7E7B63FB1E43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,5 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9D180712-0180-4814-95C8-C9A0732EC28D} = {6F81D5A7-DD8E-40CF-A696-7E14B6309CD0}
 		{4A74623C-08D4-4984-A7A5-E482AF0B0630} = {9D180712-0180-4814-95C8-C9A0732EC28D}
+		{76F1CBB5-9386-48FF-A125-68B990B9AF8F} = {6F81D5A7-DD8E-40CF-A696-7E14B6309CD0}
+		{A8869089-B9A4-47AC-9AAE-B41692AE192F} = {76F1CBB5-9386-48FF-A125-68B990B9AF8F}
+		{B37097DC-A2E2-486B-9DBA-7E7B63FB1E43} = {A8869089-B9A4-47AC-9AAE-B41692AE192F}
 	EndGlobalSection
 EndGlobal
