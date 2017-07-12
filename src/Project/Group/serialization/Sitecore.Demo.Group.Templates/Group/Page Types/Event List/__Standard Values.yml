@@ -17,7 +17,7 @@ SharedFields:
   Hint: __Renderings
   Type: layout
   Value: |
-    <r>
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{17857EED-0386-4911-89EC-C29D9C018237}">
@@ -77,10 +77,6 @@ SharedFields:
           ph="/page-layout/section"
           uid="{66422117-69C1-4B62-9323-482F16C4F244}" />
         <r
-          id="{6D309FC1-D6B1-43B1-A31C-1FECB7B9303F}"
-          ph="col-huge"
-          uid="{3900ADC1-26E3-45C2-935C-1BC12D4E228A}" />
-        <r
           id="{299FD8EA-2CFD-4A69-9CA4-7EA24CD34A46}"
           ph="footer"
           uid="{E2040FB7-4151-456D-9315-5973E4EB4D9D}" />
@@ -114,6 +110,10 @@ SharedFields:
           id="{CED18F24-62C2-445E-B0D9-045E3325297B}"
           ph="page-sidebar"
           uid="{20AB9BAA-C112-4567-A701-564423E650D2}" />
+        <r
+          id="{E470F4A6-30CA-424B-A384-25B1E283EC78}"
+          ph="col-huge"
+          uid="{3D95F1A7-99E0-4418-85B9-0BAAF16D09A0}" />
       </d>
     </r>
 Languages:
