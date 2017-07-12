@@ -1,0 +1,28 @@
+﻿---
+ID: "bde87e9b-47e6-4e6d-a843-5171303d1901"
+Parent: "fd69887e-4ba1-4418-ad48-928b882266cd"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Group/Page Types/Event
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/16x16/history.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {E795D8D0-091D-42FC-B754-6CA7DA864216}
+    {D88CCD80-D851-470D-AF11-701FF23504E7}
+    {BDD24F35-05E8-4466-8798-7D3DD6A6C991}
+    {91962B60-25F6-428F-8D10-02AA1E49D6A5}
+    {8FD6C8B6-A9A4-4322-947E-90CE3D94916D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170711T150150Z
