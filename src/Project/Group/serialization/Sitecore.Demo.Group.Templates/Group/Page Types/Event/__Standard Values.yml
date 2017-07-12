@@ -1,23 +1,15 @@
 ﻿---
-ID: "ca0dad46-8b7e-4128-bca7-fbb8d37505d6"
-Parent: "2a0d21cd-8b52-44bf-a8db-3e6b2a1ee208"
-Template: "2a0d21cd-8b52-44bf-a8db-3e6b2a1ee208"
-Path: /sitecore/templates/Project/Group/Page Types/News List/__Standard Values
+ID: "5bd0a94c-447e-4042-b3a7-ccce3b7d0752"
+Parent: "fa3c818b-3b70-490a-bf49-f6d6a14e2b43"
+Template: "fa3c818b-3b70-490a-bf49-f6d6a14e2b43"
+Path: /sitecore/templates/Project/Group/Page Types/Event/__Standard Values
 DB: master
 SharedFields:
-- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
-  Hint: __Masters
-  Type: TreelistEx
-  Value: "{A9B662A2-E2DF-49AA-85FA-40F88DDDF808}"
-- ID: "d312103c-b36c-4ca5-864a-c85f9abda503"
-  Hint: __Is Bucket
-  Type: Checkbox
-  Value: 1
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
   Value: |
-    <r>
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{17857EED-0386-4911-89EC-C29D9C018237}">
@@ -59,27 +51,33 @@ SharedFields:
           ph="navbar-activity"
           uid="{9C8A45F2-7008-42C1-8B8A-80A88825C1D8}" />
         <r
-          id="{26B33DEB-F1DB-4338-B043-AAF2F90E04A3}"
-          ph="page-layout"
-          uid="{1DF746C3-2D29-43E6-9DE2-05622DED6F97}" />
-        <r
-          id="{45B8E1D9-D522-49E0-B9B7-04C965CC7089}"
-          ph="page-header"
-          uid="{3CDF4DD8-28A4-4185-8C09-A73CAA4633F7}" />
-        <r
+          ds=""
           id="{D201A487-5099-48A1-8189-55944F70C6CB}"
-          par="UseStaticPlaceholderNames=1"
+          par="Background&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames=1"
           ph="page-layout"
           uid="{A3CA17FF-693C-46F1-87AA-B8C1833F1890}" />
         <r
-          id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
-          par="UseStaticPlaceholderNames=1"
+          ds=""
+          id="{CF750731-1275-4CC7-A9E6-809515CB4DD1}"
+          par="Background&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames=1"
           ph="/page-layout/section"
-          uid="{66422117-69C1-4B62-9323-482F16C4F244}" />
+          uid="{25827F00-EC67-4908-AA1C-51DEB35AD9F8}" />
         <r
-          id="{6D309FC1-D6B1-43B1-A31C-1FECB7B9303F}"
-          ph="col-huge"
-          uid="{3900ADC1-26E3-45C2-935C-1BC12D4E228A}" />
+          id="{5FB2A01F-DE82-42C0-8EF0-887EE5D7387B}"
+          ph="/page-layout/section/col-wide-1"
+          uid="{B3196F02-0692-42C2-8643-F913B5283BEB}" />
+        <r
+          ds=""
+          id="{EF4E87B3-5292-4EC8-B10C-8208AB81C8B3}"
+          par=""
+          ph="/page-layout/section/col-narrow-1"
+          uid="{560DFB04-8432-4810-9A87-563FFFE988C1}" />
+        <r
+          ds=""
+          id="{7DFD9396-CB94-4174-9721-9419A2AA68E3}"
+          par="MapType=terrain&amp;CenterLocation=-5.055576%2C3.803790&amp;ZoomLevel=15&amp;EnableCenterMapControl&amp;EnableZoomControl=1&amp;EnableMapTypeControl=1&amp;EnableScaleControl&amp;EnableStreetViewControl&amp;EnableRotateControl"
+          ph="/page-layout/section/col-narrow-1"
+          uid="{1274F635-B4D2-4D41-9E99-56D2CE8615F6}" />
         <r
           id="{299FD8EA-2CFD-4A69-9CA4-7EA24CD34A46}"
           ph="footer"
@@ -121,12 +119,18 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
+      Hint: OpenGraphTitle
+      Value: $name
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20150824T175428Z
+      Value: 20160906T012857Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin
-    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
-      Hint: Image
-      Value: "<image mediaid=\"{88032F9C-B464-44CB-B76D-513D60B9C127}\" />"
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: $name
+    - ID: "f12c22bb-e57d-4fab-96e1-1229e4e7ff0e"
+      Hint: MapPointName
+      Value: $name

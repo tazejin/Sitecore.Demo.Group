@@ -1,18 +1,14 @@
 ﻿---
-ID: "4738d27b-187f-442f-81b5-f76ffdaf3a6e"
-Parent: "c6b918ad-16d9-484a-a680-a15c5ee15833"
-Template: "c6b918ad-16d9-484a-a680-a15c5ee15833"
+ID: "7bd6ece6-e26a-45f3-ac78-9cdcb69654b4"
+Parent: "4be6922e-4386-410e-a86e-f342b9abb286"
+Template: "4be6922e-4386-410e-a86e-f342b9abb286"
 Path: /sitecore/templates/Project/Group/Page Types/Event List/__Standard Values
 DB: master
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Type: TreelistEx
-  Value: "{A9B662A2-E2DF-49AA-85FA-40F88DDDF808}"
-- ID: "d312103c-b36c-4ca5-864a-c85f9abda503"
-  Hint: __Is Bucket
-  Type: Checkbox
-  Value: 1
+  Value: "{FA3C818B-3B70-490A-BF49-F6D6A14E2B43}"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -77,6 +73,10 @@ SharedFields:
           ph="/page-layout/section"
           uid="{66422117-69C1-4B62-9323-482F16C4F244}" />
         <r
+          id="{E425E108-2EE5-4EFE-9DA9-76B1698C415C}"
+          ph="col-huge"
+          uid="{3900ADC1-26E3-45C2-935C-1BC12D4E228A}" />
+        <r
           id="{299FD8EA-2CFD-4A69-9CA4-7EA24CD34A46}"
           ph="footer"
           uid="{E2040FB7-4151-456D-9315-5973E4EB4D9D}" />
@@ -110,10 +110,6 @@ SharedFields:
           id="{CED18F24-62C2-445E-B0D9-045E3325297B}"
           ph="page-sidebar"
           uid="{20AB9BAA-C112-4567-A701-564423E650D2}" />
-        <r
-          id="{E470F4A6-30CA-424B-A384-25B1E283EC78}"
-          ph="col-huge"
-          uid="{3D95F1A7-99E0-4418-85B9-0BAAF16D09A0}" />
       </d>
     </r>
 Languages:
@@ -121,14 +117,21 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
+      Hint: OpenGraphTitle
+      Value: $name
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: $name
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20150824T175428Z
+      Value: 20160906T014532Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: |
-        sitecore\admin
-    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
-      Hint: Image
-      Value: |
-        <image mediaid="{88032F9C-B464-44CB-B76D-513D60B9C127}" />
+      Value: sitecore\admin
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: $name
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: $name
