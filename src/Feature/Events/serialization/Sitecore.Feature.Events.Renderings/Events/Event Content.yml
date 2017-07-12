@@ -1,6 +1,6 @@
 ﻿---
-ID: "45793ee1-bcfc-4e4a-827f-d9f10d08624c"
-Parent: "dbc852bf-a654-459f-a9f2-a7a7f0221b36"
+ID: "5fb2a01f-de82-42c0-8ef0-887ee5d7387b"
+Parent: "0db14850-270f-4a10-83c1-830a9f9cf315"
 Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
 Path: /sitecore/layout/Renderings/Feature/Events/Event Content
 DB: master
@@ -8,9 +8,6 @@ SharedFields:
 - ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
   Hint: Path
   Value: /views/events/eventcontent.cshtml
-- ID: "ef7c5528-7307-4e19-863b-da19eed6a9ed"
-  Hint: Open Properties after Add
-  Value: "-"
 Languages:
 - Language: en
   Versions:
@@ -18,8 +15,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20170712T061721Z
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\Admin
+      Value: 20160906T062920Z

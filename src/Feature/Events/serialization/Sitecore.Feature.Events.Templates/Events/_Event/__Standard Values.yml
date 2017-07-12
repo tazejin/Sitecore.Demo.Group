@@ -1,13 +1,16 @@
 ﻿---
-ID: "23a55c52-9055-4311-b4f9-728a5d017061"
+ID: "c8113691-5dd7-4f4a-b6a3-2ce3e411cc19"
 Parent: "0579062e-e184-4a84-8a03-cc3e16cff381"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Events/_Event/Venue
+Template: "0579062e-e184-4a84-8a03-cc3e16cff381"
+Path: /sitecore/templates/Feature/Events/_Event/__Standard Values
 DB: master
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 300
+- ID: "e925dd56-7bec-4637-b970-565846396f58"
+  Hint: Date
+  Value: 20160905T140000Z
 Languages:
 - Language: en
   Versions:
@@ -15,7 +18,10 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160906T015230Z
+      Value: 20160906T020508Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin
+    - ID: "ce6b8b5d-b529-4e26-b90b-a76e9c868912"
+      Hint: Title
+      Value: $name

@@ -1,6 +1,6 @@
 ﻿---
-ID: "e795d8d0-091d-42fc-b754-6ca7da864216"
-Parent: "f9608bc0-116d-4efd-b8cb-b58c65ad1ff4"
+ID: "0579062e-e184-4a84-8a03-cc3e16cff381"
+Parent: "89ec2266-4bd8-4834-804a-754c56b41eab"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Feature/Events/_Event
 DB: master
@@ -9,6 +9,9 @@ SharedFields:
   Hint: __Base template
   Type: tree list
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{C8113691-5DD7-4F4A-B6A3-2CE3E411CC19}"
 Languages:
 - Language: en
   Versions:
@@ -16,4 +19,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20170711T134620Z
+      Value: 20160906T014954Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

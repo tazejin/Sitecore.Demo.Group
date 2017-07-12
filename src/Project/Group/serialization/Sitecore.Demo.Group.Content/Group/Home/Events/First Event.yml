@@ -1,0 +1,21 @@
+﻿---
+ID: "7d886a76-63ca-4828-b0e8-9d9546e446a8"
+Parent: "3031c459-c194-423d-9dd0-e0ef607604af"
+Template: "bde87e9b-47e6-4e6d-a843-5171303d1901"
+Path: /sitecore/content/Group/Home/Events/First Event
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170712T080100Z
+    - ID: "4da3a620-c673-4cfd-a73e-ccf97307be3e"
+      Hint: Title
+      Value: First Event
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

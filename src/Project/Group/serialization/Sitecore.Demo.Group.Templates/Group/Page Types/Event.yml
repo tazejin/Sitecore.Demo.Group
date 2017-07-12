@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Applications/16x16/history.png
+  Value: Applications/32x32/history.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
@@ -122,6 +122,12 @@ SharedFields:
           id="{AFF26D7A-DBC7-4D68-999D-4ED5FEF71FA4}"
           ph="/page-layout/section/col-narrow-1"
           uid="{1A16614B-6543-438A-A16E-658469B920A0}" />
+        <r
+          ds=""
+          id="{7DFD9396-CB94-4174-9721-9419A2AA68E3}"
+          par="MapType=roadmap&amp;CenterLocation=-5.055576%2C3.803790&amp;ZoomLevel=15&amp;EnableCenterMapControl&amp;EnableZoomControl=1&amp;EnableMapTypeControl=1&amp;EnableScaleControl&amp;EnableStreetViewControl&amp;EnableRotateControl"
+          ph="/page-layout/section/col-narrow-1"
+          uid="{B475D153-4980-42FE-928C-0D27EFBFF477}" />
       </d>
     </r>
 Languages:
